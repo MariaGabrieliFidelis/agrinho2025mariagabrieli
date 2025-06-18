@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horta Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Horta Inteligente</h1>
+        <p>Seu guia rápido para cultivar legumes em casa!</p>
+    </header>
+
+    <main>
+        <section class="vegetable-grid">
+            </section>
+
+        <section class="add-vegetable">
+            <h2>Adicionar Novo Legume</h2>
+            <form id="add-vegetable-form">
+                <label for="name">Nome do Legume:</label>
+                <input type="text" id="name" required>
+
+                <label for="season">Melhor Época de Plantio:</label>
+                <input type="text" id="season" placeholder="Ex: Primavera, Ano todo" required>
+
+                <label for="care">Dicas de Cuidado:</label>
+                <textarea id="care" rows="4" placeholder="Ex: Regar diariamente, Solo fértil" required></textarea>
+
+                <button type="submit">Adicionar Legume</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Horta Inteligente. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
